@@ -1,3 +1,9 @@
-Welcome to GitHub!
+Commands for GitBash
 
-from GitBash
+git config --global user.name <username>        #GitHub username
+git config --global user.email <email>          #GitHub email
+git clone <url>                                 #To load a repository into ur local drive
+git status                                      #Shows the status of the current repository and the pending comitted files to be pushed
+git add <file>                                  #adds the file, ready to be committed
+git commit -m "<message>" <file>                #commits the file into the local repository
+git push -u origin master                       #update the repository at GitHub
