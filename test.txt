@@ -11,4 +11,4 @@ git commit -m "<message>" <file>                #commits the file into the local
 git push -u origin master                       #update the repository at GitHub
 git branch                                      #Lists all the branches **green indicates active branch**
 git branch <branch>                             #Creates a new branch named <branch>
-git checkout <branch>                           #To switch the current branch to other branch named <branch>\
+git checkout <branch>                           #To switch the current branch to other branch named <branch>
