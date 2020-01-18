@@ -8,7 +8,8 @@ git clone <url>                                 #To load a repository into ur lo
 git status                                      #Shows the status of the current repository and the pending comitted files to be pushed
 git add <file>                                  #adds the file, ready to be committed
 git commit -m "<message>" <file>                #commits the file into the local repository
-git push -u origin master                       #update the repository at GitHub
+git push -u origin master                       #update the remote repository (GitHub) from local repository
+git pull                                        #update the local repository from the remote repository
 git branch                                      #Lists all the branches **green indicates active branch**
 git branch <branch>                             #Creates a new branch named <branch>
 git checkout <branch>                           #To switch the current branch to other branch named <branch>
